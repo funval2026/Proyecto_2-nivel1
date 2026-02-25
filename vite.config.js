@@ -11,6 +11,7 @@ export default defineConfig({
       input: {
         Perfil: resolve(__dirname, 'index.html'),
         
+        
         proyectos: resolve(__dirname, 'pages/proyectos.html'),
         habilidades: resolve(__dirname, 'pages/habilidades.html'),
         servicios: resolve(__dirname, 'pages/servicios.html'),
