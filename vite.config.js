@@ -1,7 +1,10 @@
+
 import { defineConfig } from "vite";
 import tailwindcss from "@tailwindcss/vite";
+
 export default defineConfig({
   plugins: [tailwindcss()],
+  base: "/Proyecto_2-nivel1/", // <-- ¡Esta es la línea mágica que te faltaba!
 });
 
 

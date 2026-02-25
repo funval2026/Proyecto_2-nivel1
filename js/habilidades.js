@@ -16,7 +16,7 @@ for (let i = 0; i < habilidades.length; i++) {
 
   contenedorp.innerHTML += `
 
-  <div class=" bg-slate-800 text-amber-50 rounded-xl hover:scale-95 transition p-5">
+  <div class=" bg-slate-800 text-amber-50 rounded-xl hover:scale-95 transition p-5 border-amber-50 border-solid border-2">
         
     <img src="${habilidades[i].URLImg}" class="w-20 h-30 p-2 object-contain mx-auto mb-5>
     <p class="text-center font-semibold ">${habilidades[i].nombre}</p>
